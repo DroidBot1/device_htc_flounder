@@ -1,4 +1,8 @@
+ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+KERNEL_DEFCONFIG := flounder-debug_defconfig
+else
 KERNEL_DEFCONFIG := flounder_defconfig
+endif
 KERNEL_DIR := kernel/htc/flounder
 
 include $(TOP)/$(KERNEL_DIR)/AndroidKernel.mk
