@@ -44,3 +44,5 @@ PRODUCT_BRAND := Android
 PRODUCT_MODEL := Nexus 9
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_RESTRICT_VENDOR_FILES := owner path
+
+PRODUCT_COPY_FILES += device/htc/flounder/backup.xml:system/etc/sysconfig/backup.xml
