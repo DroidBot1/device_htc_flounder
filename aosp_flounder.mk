@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += \
         rild \
         CarrierConfig \
         Launcher3 \
-        WallpaperPicker
+        WallpaperPicker \
+	LegacyUpdater
 
 PRODUCT_PROPERTY_OVERRIDES := \
         net.dns1=8.8.8.8 \
